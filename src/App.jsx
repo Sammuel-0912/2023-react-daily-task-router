@@ -1,18 +1,9 @@
 import './App.css';
 import { HashRouter, NavLink, Routes, Route } from 'react-router-dom';
-
-const Home = () => {
-  return <p>這是首頁</p>;
-}
-const Todo = () => {
-  return <p>這是 Todo 頁面</p>;
-};
-const Login = () => {
-  return <p>這是登入頁面</p>;
-};
-const Register = () => {
-  return <p>這是註冊頁面</p>;
-};
+import Home from './pages/Home';
+import Todo from './pages/Todo';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
   return (
